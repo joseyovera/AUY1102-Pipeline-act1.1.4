@@ -190,4 +190,27 @@ Contributions are welcome! read our [Contributor's Guide](./docs/CONTRIBUTING.md
 - **NPM Audit Signatures:** https://github.blog/changelog/2022-07-26-a-new-npm-audit-signatures-command-to-verify-npm-package-integrity/
 - **NPM Audit:** https://github.com/marketplace/actions/npm-audit-action
 
-Prueba de pipeline - José
+## Development setup
+
+Pasos para configurar el entorno de desarrollo local:
+
+1. Instalar [Node.js](https://nodejs.org/) versión 20 o superior y [Git](https://git-scm.com/).
+2. Clonar el repositorio:
+
+   ```
+   git clone https://github.com/joseyovera/AUY1102-Pipeline-act1.1.4.git
+   cd AUY1102-Pipeline-act1.1.4
+   ```
+
+3. Instalar las dependencias:
+
+   ```
+   npm install
+   ```
+
+4. Verificar el estilo del código y ejecutar las pruebas:
+
+   ```
+   npm run lint
+   npm run test:unit
+   ```
