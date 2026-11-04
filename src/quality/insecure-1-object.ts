@@ -3,6 +3,7 @@ const bodyParser = require('body-parser');
 const pug = require('pug');
 
 const app = express();
+app.disable('x-powered-by');
 
 app.use(bodyParser.urlencoded({ extended: true }));
 
